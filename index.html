@@ -1,122 +1,59 @@
 <!DOCTYPE html>
-<!-- Home Page - index.html -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to our multi-page website showcase">
-    <title>Home - My Website</title>
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
-    <!-- EXTERNAL CSS - Links to shared stylesheet -->
-    <link rel="stylesheet" href="site-styles.css">
+    <title>About Me & Tippy</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <!-- NAVIGATION BAR
-         Same navigation appears on all 4 pages
-         Uses <nav> semantic element for accessibility -->
-    <nav>
-        <ul>
-            <!-- class="active" highlights current page
-                 This is on HOME, so index.html has active class -->
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <!-- HEADER - Page title section with gradient background -->
     <header>
-        <h1>Welcome to Our Website</h1>
-        <p>Your one-stop solution for all your needs</p>
+        <h1>Welcome!</h1>
+        <p class="subtitle">A Journey Through Wrenches and Wheels</p>
     </header>
-    
-    <!-- MAIN CONTENT - Wrapped in container for max-width -->
-    <div class="container">
-        
-        <!-- CONTENT section with white background -->
-        <div class="content">
-            <h2>Welcome!</h2>
-            <p>
-                Welcome to our website! We're thrilled to have you here. This is a demonstration 
-                of a multi-page website built with <strong>pure HTML and CSS</strong> - no JavaScript 
-                required! Navigate through our pages using the menu above to explore what we offer.
-            </p>
-            
-            <p>
-                Our site showcases modern web design principles including responsive layouts, 
-                smooth transitions, and an intuitive navigation system. All styling is handled 
-                through CSS, demonstrating the power of cascading style sheets.
-            </p>
-            
-            <!-- INFO BOX - Featured content with gradient -->
-            <div class="info-box mt-30">
-                <h3>Why Choose Us?</h3>
-                <p>
-                    We combine expertise with innovation to deliver exceptional results. 
-                    Our team is dedicated to providing top-quality service and support.
-                </p>
+
+    <main>
+        <section class="intro">
+            <div class="content-box">
+                <h2>About Me</h2>
+                <p>I'm a journeyman motorcycle technician with a passion for engines, mechanics, and the open road. My journey started in Toronto, where I grew up learning the ins and outs of what makes things tick.</p>
+                
+                <h3>My Educational Path</h3>
+                <p>My technical education took me across Canada:</p>
+                <ul>
+                    <li><strong>Central Tech High School</strong> - Toronto, where it all began</li>
+                    <li><strong>Canadore College</strong> - Eco-tourism Certificate</li>
+                    <li><strong>Grande Prairie Regional College</strong> - Harley-Davidson factory training and Journeyman Certification</li>
+                    <li><strong>Red Deer Polytechnic</strong> - Completing Network Administration Diploma</li>
+                </ul>
+                
+                <p>Each institution helped shape me into the technician I am today, and I'm grateful for the diverse experiences and knowledge I gained along the way.</p>
             </div>
-            
-            <h3 class="mt-30">What We Offer</h3>
-            <p>
-                Our website provides comprehensive information about our company, services, 
-                and how to get in touch. Each page is designed with user experience in mind:
-            </p>
-            
-            <!-- UNORDERED LIST - Feature list -->
-            <ul style="margin-left: 40px; margin-bottom: 20px;">
-                <li><strong>About Page:</strong> Learn about our history and mission</li>
-                <li><strong>Services Page:</strong> Discover what we can do for you</li>
-                <li><strong>Contact Page:</strong> Get in touch with our team</li>
-            </ul>
-            
-            <h3>Modern Design</h3>
-            <p>
-                This website demonstrates several modern CSS techniques:
-            </p>
-            
-            <!-- ORDERED LIST - Numbered features -->
-            <ol style="margin-left: 40px; margin-bottom: 20px;">
-                <li>Sticky navigation that follows you as you scroll</li>
-                <li>Responsive design that works on mobile, tablet, and desktop</li>
-                <li>Smooth hover effects and transitions</li>
-                <li>Card-based layouts for organized content</li>
-                <li>Gradient backgrounds for visual appeal</li>
-            </ol>
-            
-            <p>
-                Feel free to explore our site and don't hesitate to reach out through our 
-                <a href="contact.html" style="color: #3498db; text-decoration: none;">contact page</a> 
-                if you have any questions!
-            </p>
-        </div>
-        
-    </div>
-    
-    <!-- FOOTER - Bottom of page with copyright info -->
+        </section>
+
+        <section class="dog-section">
+            <div class="content-box">
+                <h2>Meet Tippy</h2>
+                <div class="dog-info">
+                    <p>No introduction would be complete without mentioning my four-legged companion, <strong>Tippy</strong>. Whether I'm working in the garage or taking a break, Tippy is always nearby, bringing joy and companionship to every day.</p>
+                    
+                    <p>There's something special about the bond between a technician and their dog - Tippy knows when it's time to work and when it's time to play. A true shop dog at heart!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="passion">
+            <div class="content-box">
+                <h2>My Passion</h2>
+                <p>Working on motorcycles isn't just a job - it's a calling. There's nothing quite like diagnosing a problem, getting your hands dirty, and bringing a machine back to life. Every bike has its own personality, and every repair is a new puzzle to solve.</p>
+                <p>Network the world! I am excited to begin my new career in IT</p>
+                <p>From Toronto to the prairies and beyond, the journey continues - one motorcycle at a time.</p>
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2026 My Website. All rights reserved. | 
-           <a href="index.html">Home</a> | 
-           <a href="about.html">About</a> | 
-           <a href="services.html">Services</a> | 
-           <a href="contact.html">Contact</a>
-        </p>
+        <p>&copy; 2026 - Probably not worth a copyright</p>
     </footer>
-    
 </body>
 </html>
-
-<!-- 
-NAVIGATION EXPLANATION:
-The navigation bar uses CSS to create an interactive menu:
-- Links change color on :hover (when you move mouse over them)
-- The current page has class="active" for highlighting
-- position: sticky keeps nav at top when scrolling
-- All done with CSS - no JavaScript needed!
-
-The same navigation appears on all 4 pages, but the "active" 
-class moves to whichever page you're currently viewing.
--->
